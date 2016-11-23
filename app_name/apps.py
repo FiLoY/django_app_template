@@ -2,4 +2,4 @@
 
 
 class {{ camel_case_app_name }}Config(AppConfig):
-    name = '{{ app_name }}'
+    name = '{{ project_name }}.src.apps.{{ app_name }}'
